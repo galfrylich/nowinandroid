@@ -40,7 +40,7 @@ android {
 
     buildTypes {
         debug {
-            applicationIdSuffix = NiaBuildType.DEBUG.applicationIdSuffix
+            applicationIdSuffix = NiaBuildType.DEBUG.applicationIdSuffix;
             debuggable true
         }
         release {
