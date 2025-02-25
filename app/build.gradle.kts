@@ -41,6 +41,7 @@ android {
     buildTypes {
         debug {
             applicationIdSuffix = NiaBuildType.DEBUG.applicationIdSuffix
+            debuggable true
         }
         release {
             isMinifyEnabled = true
